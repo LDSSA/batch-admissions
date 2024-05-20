@@ -1,1 +1,3 @@
-# batch7-admissions-students
+# LDSA Batch Admissions Repository
+
+Welcome!
