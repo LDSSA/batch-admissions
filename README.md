@@ -5,7 +5,7 @@ Welcome to **Lisbon Data Science Starters Academy Batch 8** Students Repository!
 Your first step in this journey is to **carefully read** the steps in this tutorial. ⚠️ **Important**: Make sure to complete all the steps during the setup week, **22.9. - 28.9. 2024**. If you are struggling with any of the steps, contact us in the #setup channel on Slack! In this tutorial, you'll learn:
 
 - Slack usage and etiquette;
-- How to setup your software environment to be able to run Jupyter notebooks with Python 3.10;
+- How to setup your software environment to be able to run Jupyter notebooks with Python 3.12;
 - The learning unit workflow to follow during the LDSSA.
 
 Everything else you need to know should be [on our wiki](https://ldssa.github.io/wiki/).
@@ -27,7 +27,7 @@ First and foremost, we'll talk about how to use our communication tool, Slack. Y
 
 ## 2. Initial Setup
 
-At the end of this part, you should have Python 3.10 installed in your machine. Please choose your operating system:
+At the end of this part, you should have Python 3.12 installed in your machine. Please choose your operating system:
 
 <table>
   <tr>
