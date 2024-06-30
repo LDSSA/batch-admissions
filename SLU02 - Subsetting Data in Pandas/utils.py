@@ -4,21 +4,27 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
-
 MAP_COLOURS = [
-    ["k", "w", "w", "k", "k", "k", "k", "w", "k", "k"],
-    ["w", "w", "w", "k", "k", "w", "w", "w", "w", "k"],
-    ["w", "w", "w", "k", "w", "w", "w", "w", "w", "k"],
-    ["w", "w", "w", "w", "w", "w", "w", "w", "w", "w"],
+    ["k", "k", "w", "k", "k", "k", "k", "w", "k", "k"],
+    ["w", "k", "w", "k", "k", "k", "k", "w", "w", "k"],
+    ["w", "w", "w", "k", "k", "k", "k", "w", "w", "k"],
+    ["w", "w", "w", "k", "k", "k", "w", "w", "w", "k"],
+    ["w", "w", "w", "w", "k", "w", "w", "w", "w", "w"],
+    ["w", "w", "w", "w", "k", "w", "w", "w", "w", "w"],
+    ["w", "w", "w", "w", "k", "w", "w", "w", "w", "w"],
     ["c", "c", "c", "c", "c", "c", "c", "c", "c", "c"],
-    ["w", "k", "w", "w", "w", "w", "w", "w", "w", "w"],
-    ["w", "k", "w", "w", "w", "w", "w", "k", "w", "k"],
-    ["w", "k", "w", "w", "w", "k", "w", "k", "w", "k"],
-    ["w", "k", "w", "w", "k", "k", "k", "k", "w", "k"]
+    ["w", "w", "w", "w", "w", "w", "w", "w", "k", "w"],
+    ["w", "w", "w", "w", "w", "w", "w", "w", "k", "w"],
+    ["w", "w", "k", "w", "w", "w", "k", "w", "k", "w"],
+    ["w", "w", "k", "w", "w", "w", "k", "k", "k", "w"],
+    ["w", "k", "k", "k", "w", "w", "k", "k", "k", "w"],
+    ["k", "k", "k", "k", "k", "w", "k", "k", "k", "w"],
+    ["k", "k", "k", "k", "k", "k", "k", "k", "k", "w"],
+
 ]
 
-CLUE_START_IDX = [1, 0, 0, 3, 2, 1, 1, 0, 1, 3]
-CLUE_END_IDX = [9, 5, 9, 9, 8, 7, 8, 6, 9, 6]
+CLUE_START_IDX = [1, 2, 0, 4, 7, 4, 3, 0, 1, 4]
+CLUE_END_IDX = [13, 12, 10, 12, 13, 14, 10, 11, 8, 15]
 
 
 def duration_to_int(duration: str) -> int:
@@ -58,8 +64,8 @@ def add_column_duration_int(df: pd.DataFrame) -> pd.DataFrame:
 def draw_crosswords(text, colours):
     plt.figure()
 
-    ny=10
-    nx=10
+    ny=13
+    nx=13
 
     tb = plt.table(cellText=text, cellColours=colours, loc=(0,0), cellLoc='center')
     tc = tb.properties()['children']
