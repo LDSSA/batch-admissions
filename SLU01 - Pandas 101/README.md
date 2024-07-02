@@ -1,7 +1,5 @@
 # Small Learning Unit 1 - Pandas 101
 
-Welcome to the first learning unit about Pandas. Before you start, you need to set up your virtual environment. Follow the instructions [here](https://github.com/LDSSA/batch7-students/blob/main/guides/python-venv.md) to create the virtual environment. To install the necessary packages from the requirements file, do `pip install -r requirements.txt`. Proceed in the same way for the other two SLUs.
-
 # New concepts in this unit
 
 - Importing Pandas

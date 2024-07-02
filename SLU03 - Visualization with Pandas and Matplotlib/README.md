@@ -1,6 +1,6 @@
 # Small Learning Unit 03 - Visualization with Pandas and Matplotlib
 
-In this unit you will be learning how to use data visualization to find patterns in data as well as to tell whether there is an issue with it.
+In this unit you will learn how to use data visualization to find patterns in data as well as to tell whether there is an issue with it.
 
 # New concepts in this unit
 - Scatter plots
